@@ -373,6 +373,8 @@ if __name__ == '__main__':
     # check_stats()
 
     game = PongGame(WIN, WIDTH, HEIGHT)
+
+    # TODO comment/uncomment lines here, for different "modes"
     game.ai_vs_ai(read_pickle("best.pickle"), read_pickle("best2.pickle"), config)
     # game.player_vs_ai(read_pickle("best.pickle"), config)
     # game.player_vs_player()
